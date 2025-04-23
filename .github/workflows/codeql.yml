@@ -5,8 +5,8 @@ on:
     branches: [ main ]
   pull_request:
     branches: [ main ]
-  schedule:
-    - cron: '0 0 * * 0'  # Runs weekly
+#   schedule:
+#     - cron: '0 0 * * 0'  # Runs weekly (commented out for testing purposes)
 
 jobs:
   analyze:
